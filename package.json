@@ -1,0 +1,8 @@
+{
+  "name": "stillstate-api",
+  "version": "1.0.0",
+  "description": "Vercel API functions for StillState AI",
+  "devDependencies": {
+    "@vercel/node": "^5.6.22"
+  }
+}

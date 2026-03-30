@@ -1,0 +1,20 @@
+import React from 'react';
+import { Stack } from 'expo-router';
+import { theme } from '../../../src/theme';
+
+export default function ProfileLayout() {
+  return (
+    <Stack
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: theme.colors.surfaceElevated,
+        },
+        headerTintColor: theme.colors.text,
+        contentStyle: { backgroundColor: theme.colors.background },
+      }}
+    >
+      <Stack.Screen name="index" options={{ title: 'Profile' }} />
+      <Stack.Screen name="settings" options={{ title: 'Settings' }} />
+    </Stack>
+  );
+}
