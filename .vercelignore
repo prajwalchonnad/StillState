@@ -1,0 +1,5 @@
+mobile/
+.git/
+node_modules/
+dist/
+.expo/
